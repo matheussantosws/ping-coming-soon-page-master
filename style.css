@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/*=============== Header ==============*/
+header {
+    text-align: center;
+}
+
+.logo {
+    padding: 3rem;
+}
+
+header p {
+    padding: 1rem;
+}
+
+
+/*=============== Formulário - Validação ==============*/
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+input{
+    border:thick hsl(0, 16%, 22%);
+    border-radius: 10px;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+}
+button {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    background-color:hsl(223, 87%, 63%);
+    
+}
+
+
+
+/*============ MAIN - CONTEÚDO =========*/
+
+.img-dash {
+    width: 100%;
+}
+
+/*============ FOOTER - RODAPÉ =========*/
+footer p {
+    text-align: center;
+    color:hsl(0, 0%, 59%);
+}
+
